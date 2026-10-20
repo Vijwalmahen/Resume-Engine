@@ -1,0 +1,29 @@
+{
+  "job_key": "retrieval-engineering-intern",
+  "concepts": [
+    {
+      "term": "Reciprocal rank fusion",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "Python",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    },
+    {
+      "term": "FastAPI",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    },
+    {
+      "term": "Redis",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    }
+  ]
+}

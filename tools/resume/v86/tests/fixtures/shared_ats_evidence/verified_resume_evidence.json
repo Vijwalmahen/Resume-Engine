@@ -1,0 +1,255 @@
+{
+  "candidate_profile": {
+    "primary_focus": "Applied machine learning, retrieval, and agentic systems",
+    "secondary_focus": "Hybrid search, reranking, and LLM evaluation",
+    "principle": "Reliable, evaluated systems rather than one-off demos",
+    "target_opportunities": "Open to full-time and internship roles in applied ML, retrieval, and AI engineering"
+  },
+  "education": [
+    {
+      "institution": "Example University",
+      "degree": "Master of Science in Data Engineering",
+      "location": "Example City, ST",
+      "dates": "August 2024 - May 2026",
+      "gpa": "3.80/4.00",
+      "coursework": [
+        "Distributed Data Systems",
+        "Data Pipeline Architecture",
+        "Database Internals",
+        "Applied Machine Learning"
+      ]
+    },
+    {
+      "institution": "Example State College",
+      "degree": "Bachelor of Science in Applied Mathematics",
+      "location": "Example City",
+      "dates": "August 2019 - May 2023",
+      "gpa": "3.60/4.00",
+      "coursework": [
+        "Linear Algebra",
+        "Probability & Statistics",
+        "Numerical Methods",
+        "Optimization"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "employer": "Example Research Lab",
+      "title": "Machine Learning Research Intern",
+      "resume_display_location": "Example City, USA (Remote)",
+      "dates": "Jan 2025 - May 2025",
+      "resume_bullet_count": 4,
+      "canonical_bullets": [
+        "Built a data pipeline that cleaned and merged 5 heterogeneous lab datasets into one training-ready corpus.",
+        "Trained a baseline classification model and improved its validation F1 score from 0.71 to 0.84 through feature engineering.",
+        "Wrote automated tests that reduced a recurring data-pipeline regression from happening roughly weekly to zero over 3 months.",
+        "Presented findings in a lab-wide seminar and incorporated feedback into a revised experiment design."
+      ],
+      "company_context": "University-affiliated applied ML research lab",
+      "alternate_facts_for_dynamic_tailoring": [
+        "Used pandas and scikit-learn for the cleaning and feature-engineering steps",
+        "Added a pytest-based regression suite that ran on every dataset refresh",
+        "Documented the pipeline so two other lab members could reuse it on new datasets"
+      ]
+    },
+    {
+      "employer": "Example Data Systems",
+      "title": "AI Engineer Intern",
+      "location": "Example City (Remote)",
+      "dates": "Jun 2025 - Aug 2025",
+      "resume_bullet_count": 2,
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built an internal tool that automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+        "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+      ],
+      "metrics": [
+        "Labeling turnaround reduced from 2 days to 4 hours via an internal automation tool",
+        "Vector-database search prototype shipped with a small internal evaluation script suite"
+      ],
+      "constraints": [
+        "Internal tooling only; never described as a customer-facing or publicly launched product."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Meridian",
+      "resume_bullet_count": 3,
+      "technologies": [
+        "Python",
+        "LangGraph",
+        "Qdrant",
+        "BM25",
+        "FastAPI",
+        "Docker",
+        "Docker Compose",
+        "Redis",
+        "PostgreSQL",
+        "Langfuse",
+        "Cross-encoder reranking",
+        "Reciprocal rank fusion"
+      ],
+      "canonical_bullets": [
+        "Designed a production-shaped RAG architecture -- versioned document ingestion, hybrid retrieval (BM25 + HNSW vector search with RRF fusion), and cross-encoder reranking -- over a 40k-article internal support-documentation corpus with routine content updates.",
+        "Built a quantitative evaluation harness (Recall@k, nDCG@k, MRR, LLM-judged faithfulness/correctness) that gates index promotion via alias-based blue/green deployment, then used it to validate a cost/latency optimization pass: 24% cheaper, 33% faster, with Recall@10 within 2 points of baseline (0.68 -> 0.66).",
+        "Added prompt-injection, scope, and PII guardrails with citation validation, blocking ~78% of a curated adversarial evaluation set; served via FastAPI + Redis at ~900 ms p50 end-to-end latency."
+      ],
+      "alternate_facts_for_dynamic_tailoring": [
+        "Corpus: internal support-documentation articles, refreshed on a rolling basis",
+        "Addresses document sections via standardized section codes rather than pattern matching",
+        "Separates permanent document identity, versions, and derived chunks so retrieval units rebuild without losing history",
+        "Agent control flow: retrieve, grade, generate, bounded query-rewrite, refusal paths; near-duplicate collapse, diversity control, token-aware context packing",
+        "Maintains versioned indexes and rollback-oriented operations"
+      ]
+    },
+    {
+      "name": "Project Nova",
+      "resume_bullet_count": 3,
+      "technologies": [
+        "Python",
+        "LangGraph",
+        "ChromaDB",
+        "BM25",
+        "Reciprocal rank fusion",
+        "HyDE",
+        "Sentence Transformers",
+        "QLoRA",
+        "ONNX/int8",
+        "FastAPI",
+        "Docker",
+        "Ollama",
+        "Redis"
+      ],
+      "canonical_bullets": [
+        "Designed an end-to-end course-recommendation engine over an 8K-course catalog using hybrid dense+sparse retrieval (ChromaDB + BM25 with RRF) and a fine-tuned cross-encoder reranker, improving Recall@20 from 0.52 -> 0.64 and nDCG@10 to 0.68.",
+        "Built a self-distillation pipeline with LLM-as-judge to generate ~5K training pairs at near-zero cost, then fine-tuned a small open-weight cross-encoder (QLoRA) and bi-encoder; added LLM-powered tag enrichment and engagement-weighted personalization via LangGraph.",
+        "Optimized for production with ONNX/int8 export, two-tier Redis caching, and HyDE expansion -- reducing average latency to ~140 ms and LLM cost by ~30% -- then deployed as a multi-container FastAPI service."
+      ],
+      "alternate_facts_for_dynamic_tailoring": [
+        "Structured course metadata with LLM-based tag enrichment for sparse entries; controlled tag vocabulary and provenance flags",
+        "Selective HyDE expansion used only for short/vague requests",
+        "LangGraph nodes for query parsing, hybrid search, reranking, and explanation generation",
+        "Engagement-weighted preference vector; query blending, enrolled-course filtering, catalog-grounded explanations"
+      ]
+    },
+    {
+      "name": "Project Vertex",
+      "status": "Team project (two people: Candidate Example, Teammate Example); course context",
+      "repository": "https://github.com/example-user/project-vertex",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "Supabase",
+        "PostgreSQL",
+        "pgvector",
+        "XGBoost"
+      ],
+      "candidate_contributions": [
+        "Listing-history and match-replay APIs",
+        "Volunteer-comparison workflow",
+        "Applicant profile interface and tracking",
+        "Authentication integration",
+        "Database migrations"
+      ],
+      "bullets": [
+        "Co-developed a volunteer-opportunity matching platform covering more than 400 local nonprofit listings by combining a learned fit-scoring model, geographic filtering, and applicant-tracking workflows.",
+        "Built the listing-history and match-replay APIs to evaluate fit-scoring signals over time and separate retrospective analysis from forward-looking validation.",
+        "Developed volunteer-comparison, application-tracking, authentication, and match-history workflows across a Next.js, FastAPI, Supabase/PostgreSQL, pgvector, and XGBoost stack."
+      ],
+      "metrics": [
+        "Team of 2",
+        "400+ nonprofit listings covered"
+      ],
+      "cautions": [
+        "Unverified early scoring-weight drafts exist in the project record -- do not present as final unless reconfirmed."
+      ]
+    },
+    {
+      "name": "Project Cascade",
+      "status": "Independent project",
+      "repository": "https://github.com/example-user/project-cascade",
+      "technologies": [
+        "Python",
+        "XGBoost",
+        "scikit-learn",
+        "SHAP",
+        "Conformal prediction",
+        "Pandas",
+        "NumPy",
+        "FastAPI",
+        "React"
+      ],
+      "scope_facts": [
+        "Predicts next-term course-enrollment demand from time-ordered scheduling and historical attendance data",
+        "Compares six classifiers with four scheduling-heuristic baselines using held-out and expanding-window validation (not random cross-validation)",
+        "XGBoost is the strongest reported model; SHAP used for feature attribution",
+        "Includes leakage checks, conformal-prediction uncertainty estimates, and capacity-constraint sensitivity analysis",
+        "Exposes results through a FastAPI backend and React interface"
+      ],
+      "bullets": [
+        "Benchmarked six machine-learning classifiers against four scheduling-heuristic baselines for next-term course-enrollment demand by using point-in-time features and time-ordered validation.",
+        "Achieved a 0.61 held-out ROC-AUC with XGBoost and a 0.59 mean ROC-AUC across 12 expanding-window terms.",
+        "Improved result interpretability and evaluation discipline by combining SHAP attribution, leakage tests, conformal uncertainty estimates, and capacity-constraint sensitivity analysis.",
+        "Served screening and comparison results through a FastAPI backend and React interface."
+      ],
+      "metrics": [
+        "6 classifiers vs. 4 scheduling-heuristic baselines",
+        "0.61 XGBoost held-out ROC-AUC",
+        "0.59 mean ROC-AUC across 12 expanding-window terms"
+      ]
+    },
+    {
+      "name": "Project Horizon",
+      "status": "Independent project",
+      "repository": "https://github.com/example-user/project-horizon",
+      "technologies": [
+        "Python",
+        "pandas",
+        "Prophet",
+        "Docker"
+      ],
+      "candidate_contributions": [
+        "Built the demand-forecasting model",
+        "Built the weekly batch-scoring script"
+      ],
+      "bullets": [
+        "Built a time-series demand-forecasting model for a simulated regional logistics network, reducing forecast error (MAPE) from 19% to 11% versus a naive seasonal baseline.",
+        "Packaged the forecasting model behind a weekly batch-scoring script that regenerated demand forecasts across 12 simulated distribution regions.",
+        "Containerized the scoring script with Docker so forecasts could be regenerated consistently on any schedule."
+      ],
+      "metrics": [
+        "MAPE reduced from 19% to 11%",
+        "12 simulated distribution regions"
+      ],
+      "cautions": [
+        "Use the 19%->11% MAPE figures (latest supplied values); older drafts citing different numbers are stale -- verify before submission."
+      ]
+    },
+    {
+      "name": "Project Solstice",
+      "status": "Independent project",
+      "technologies": ["Python", "SQL", "Airflow", "PostgreSQL"],
+      "scope_facts": [
+        "Built an ETL data-quality validation framework that automatically checked schema drift and null-rate anomalies across 8 simulated data sources",
+        "Reduced manual data-quality review time by 70% by auto-flagging anomalous batches before they reached a downstream warehouse table"
+      ],
+      "bullets": [
+        "Built an ETL data-quality validation framework that automatically checked schema drift and null-rate anomalies across 8 simulated data sources.",
+        "Reduced manual data-quality review time by 70% by auto-flagging anomalous batches before they reached a downstream warehouse table."
+      ],
+      "cautions": [
+        "Do not claim a specific latency improvement beyond the review-time figure above unless reconfirmed."
+      ]
+    }
+  ],
+  "skills": {
+    "static_resume_lines": {
+      "Languages": "Python, C++, Java, SQL",
+      "Frameworks": "PyTorch, TensorFlow, scikit-learn, Hugging Face, LangChain, LangGraph",
+      "Backend/API": "FastAPI, Pinecone, MongoDB, REST APIs, FAISS, PostgreSQL, Git, Docker, Redis"
+    }
+  }
+}

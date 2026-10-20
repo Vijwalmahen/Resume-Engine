@@ -1,0 +1,114 @@
+{
+  "job_key": "live13-11-recommendation",
+  "gate_pass": true,
+  "supported_required_skill_coverage_percent": 100.0,
+  "high_priority_concept_coverage_percent": 100.0,
+  "required_high_priority_concept_coverage_percent": 100.0,
+  "core_responsibility_coverage_percent": 100.0,
+  "supported_and_present": [
+    "Hybrid search",
+    "pgvector"
+  ],
+  "supported_but_missing": [
+    "Sentence Transformers"
+  ],
+  "supported_but_missing_required": [],
+  "optional_supported_but_missing": [
+    "Sentence Transformers"
+  ],
+  "unsupported": [
+    "Semantic recommendation systems"
+  ],
+  "missing_supported_required_terms": [],
+  "unsupported_required_terms": [
+    "Semantic recommendation systems"
+  ],
+  "concepts": [
+    {
+      "term": "Semantic recommendation systems",
+      "canonical": null,
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical",
+      "importance": 4,
+      "forms_checked": [
+        "Semantic recommendation systems"
+      ],
+      "supported_by_master_evidence": false,
+      "resume_present": false,
+      "status": "UNSUPPORTED",
+      "evidence_hits": [],
+      "negated_evidence_hits_excluded": []
+    },
+    {
+      "term": "Hybrid search",
+      "canonical": null,
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "importance": 4,
+      "forms_checked": [
+        "Hybrid search",
+        "hybrid retrieval",
+        "hybrid dense+sparse retrieval",
+        "hybrid dense-sparse retrieval",
+        "hybrid dense/sparse retrieval"
+      ],
+      "supported_by_master_evidence": true,
+      "resume_present": true,
+      "status": "SUPPORTED_AND_PRESENT",
+      "evidence_hits": [
+        {
+          "file": "tools/resume/v86/tests/fixtures/live13_11_recommendation/shared_ats_evidence/verified_resume_evidence.json",
+          "source": "$.projects[2].alternate_bullets_for_dynamic_tailoring[0]",
+          "text": "Built a retrieval-augmented question-answering service over a 50k-document corpus using hybrid dense+sparse retrieval."
+        }
+      ],
+      "negated_evidence_hits_excluded": []
+    },
+    {
+      "term": "pgvector",
+      "canonical": null,
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "medium",
+      "importance": 5,
+      "forms_checked": [
+        "pgvector"
+      ],
+      "supported_by_master_evidence": true,
+      "resume_present": true,
+      "status": "SUPPORTED_AND_PRESENT",
+      "evidence_hits": [
+        {
+          "file": "tools/resume/v86/tests/fixtures/live13_11_recommendation/shared_ats_evidence/verified_resume_evidence.json",
+          "source": "$.projects[2].technologies[2]",
+          "text": "pgvector"
+        }
+      ],
+      "negated_evidence_hits_excluded": []
+    },
+    {
+      "term": "Sentence Transformers",
+      "canonical": null,
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium",
+      "importance": 3,
+      "forms_checked": [
+        "Sentence Transformers"
+      ],
+      "supported_by_master_evidence": true,
+      "resume_present": false,
+      "status": "SUPPORTED_BUT_MISSING",
+      "evidence_hits": [
+        {
+          "file": "tools/resume/v86/tests/fixtures/live13_11_recommendation/shared_ats_evidence/verified_resume_evidence.json",
+          "source": "$.projects[2].technologies[4]",
+          "text": "Sentence Transformers"
+        }
+      ],
+      "negated_evidence_hits_excluded": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "company": "Example Vision Labs",
+  "role": "Computer Vision Intern",
+  "salutation": "Dear Hiring Manager,",
+  "opening": "I am excited to apply for the Computer Vision Intern role at Example Vision Labs. As an AI Engineer pursuing my MS in Data Engineering at Example University, I bring hands-on experience building data pipelines, production-grade retrieval systems, and full-stack ML services. My work spans data engineering, model evaluation, and rigorous benchmarking, and I am eager to bring that same discipline to Example Vision Labs's computer-vision efforts.",
+  "experience_paragraphs": {
+    "experience_1": "At Example Research Lab, I built a data pipeline that cleaned and merged 5 heterogeneous lab datasets, trained a baseline classifier that improved validation F1 from 0.71 to 0.84, and wrote automated tests that eliminated a recurring weekly pipeline regression. This experience sharpened my ability to design evaluation harnesses and production-ready systems that must be both accurate and reliable at scale.",
+    "experience_2": "As an AI Engineer Intern at Example Data Systems, I built an internal tool that automated a manual data-labeling step, cutting turnaround time from 2 days to 4 hours, and integrated a vector database into an internal search prototype with evaluation scripts the team still relies on. This work gave me direct experience in the data-pipeline and evaluation skills central to this role."
+  },
+  "project_paragraph": "Beyond core ML work, I built Project Cascade, which benchmarks six machine-learning classifiers against four scheduling-heuristic baselines for next-term course-enrollment demand, using time-ordered validation, SHAP attribution, and leakage checks, then exposed the results through a FastAPI backend and React interface. This project strengthened my ability to combine rigorous evaluation with production-facing engineering.",
+  "closing": "I would welcome the opportunity to bring this blend of data engineering, production-system design, and evaluation rigor to Example Vision Labs's Computer Vision Intern team. Thank you for considering my application - I look forward to discussing how my experience with data pipelines, evaluation, and benchmarking can contribute to your team's goals. I am available to start immediately and look forward to hearing from you soon."
+}

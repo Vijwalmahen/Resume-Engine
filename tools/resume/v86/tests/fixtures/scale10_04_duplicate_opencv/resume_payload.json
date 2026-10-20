@@ -1,0 +1,24 @@
+{
+  "experience_bullet_orders": {
+    "experience_1": [0, 1, 2, 3]
+  },
+  "experience_alternate_bullets": {
+    "experience_2": [
+      "Built an internal tool that automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+      "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+    ]
+  },
+  "project_bullet_orders": {
+    "project_1": [0, 1, 2],
+    "project_2": [0, 1, 2]
+  },
+  "selected_project": {
+    "owner_id": "project_selectable_4",
+    "title": "Project Cascade — Course-Enrollment Demand Classifier",
+    "technology_line": "Python, XGBoost, scikit-learn, SHAP, FastAPI, React",
+    "bullets": [
+      "Benchmarked six machine-learning classifiers against four scheduling-heuristic baselines for next-term course-enrollment demand using point-in-time, time-ordered validation.",
+      "Achieved a 0.61 held-out ROC-AUC with XGBoost and a 0.59 mean ROC-AUC across 12 expanding-window terms."
+    ]
+  }
+}

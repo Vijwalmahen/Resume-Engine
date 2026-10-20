@@ -1,0 +1,9 @@
+{
+  "status": "STRATEGY_READY",
+  "skill_name": "jobapp-resume-v86-semantic",
+  "skill_identity": "JOBAPP_RESUME_V86_SEMANTIC_WORKER",
+  "job_file": "jobs/batch_inbox/benchmark-09-retrieval-engineer.md",
+  "job_key": "benchmark-09-retrieval-engineer",
+  "selected_project_bound": "project_selectable_1",
+  "semantic_corrections": 0
+}

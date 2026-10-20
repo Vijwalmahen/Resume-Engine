@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "Project Atlas",
+      "canonical_bullets": [
+        "Designed a document-classification pipeline covering 6 document categories with a held-out accuracy of 91%."
+      ]
+    },
+    {
+      "name": "Project Beacon",
+      "canonical_bullets": [
+        "Designed a collaborative-filtering recommendation prototype evaluated on a public 100k-rating dataset."
+      ],
+      "alternate_facts_for_dynamic_tailoring": [
+        "LangGraph nodes for query parsing, hybrid search, reranking, and explanation generation"
+      ]
+    }
+  ]
+}

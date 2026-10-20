@@ -1,0 +1,37 @@
+{
+  "experience_bullet_orders": {
+    "experience_1": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "experience_alternate_bullets": {
+    "experience_2": [
+      "Automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+      "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+    ]
+  },
+  "project_bullet_orders": {
+    "project_1": [
+      0,
+      1,
+      2
+    ],
+    "project_2": [
+      0,
+      1,
+      2
+    ]
+  },
+  "selected_project": {
+    "owner_id": "project_selectable_1",
+    "title": "Project Meridian — Retrieval-Augmented QA Service",
+    "technology_line": "Python, FastAPI, pgvector, PostgreSQL",
+    "bullets": [
+      "Built a retrieval-augmented question-answering service over a 50k-document corpus using hybrid dense+sparse retrieval.",
+      "Reduced p95 query latency from 480ms to 190ms by adding an approximate nearest-neighbor index."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "mode": "NORMAL",
+  "measurements": {
+    "experience_2_bullet_1": {
+      "characters": 95,
+      "limit": 180
+    },
+    "experience_2_bullet_2": {
+      "characters": 112,
+      "limit": 180
+    },
+    "selected_project_slot_title": {
+      "characters": 49,
+      "limit": 70
+    },
+    "selected_project_slot_technology_line": {
+      "characters": 37,
+      "limit": 90
+    },
+    "selected_project_slot_bullet_1": {
+      "characters": 118,
+      "limit": 170
+    },
+    "selected_project_slot_bullet_2": {
+      "characters": 94,
+      "limit": 170
+    }
+  },
+  "failures": []
+}

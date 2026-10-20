@@ -1,0 +1,12 @@
+{
+  "company": "",
+  "role": "Retrieval Engineer",
+  "salutation": "Dear Hiring Manager,",
+  "opening": "I'm excited to apply for the Retrieval Engineer role. As an AI engineer focused on retrieval-augmented generation and search systems, I've spent the past year building production-shaped hybrid retrieval pipelines -- combining BM25, dense vector search, reciprocal rank fusion, and cross-encoder reranking -- while also shipping applied ML systems in data engineering and course-recommendation. I'd welcome the chance to bring that retrieval-systems background to your team.",
+  "experience_paragraphs": {
+    "experience_1": "At Example Research Lab, I built a data pipeline that merged 5 heterogeneous lab datasets, trained a baseline classifier that improved validation F1 from 0.71 to 0.84, and wrote automated tests that eliminated a recurring weekly pipeline regression. This work sharpened my instincts for reliable, well-evaluated systems.",
+    "experience_2": "At Example Data Systems, I automated a manual data-labeling step that cut turnaround time from 2 days to 4 hours, and integrated a vector database into an internal search prototype with evaluation scripts the team still relies on. That experience deepened my comfort tuning production pipelines for both speed and quality -- skills directly transferable to tuning retrieval latency and result quality at scale."
+  },
+  "project_paragraph": "My Project Meridian work directly mirrors this role's core responsibilities: hybrid BM25 plus HNSW vector retrieval fused with reciprocal rank fusion, cross-encoder reranking, and a LangGraph retrieve-grade-retry loop over a 40k-article internal support-documentation corpus. I built a quantitative evaluation harness -- Recall@k, nDCG@k, MRR, and LLM-judged faithfulness -- that gated a cost/latency optimization pass, cutting cost 24% and latency 33% while keeping Recall@10 within two points of baseline.",
+  "closing": "I'd welcome the opportunity to discuss how my retrieval-systems experience -- spanning hybrid search, evaluation harnesses, and production deployment -- can contribute to your team's search infrastructure. Thank you for considering my application; I'm happy to share code, evaluation results, or further detail on any of the projects above, and I look forward to speaking with you soon."
+}

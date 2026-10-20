@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "selection_policy": "HYBRID_REQUIRED_COVERAGE",
+  "selection_mode": "BINDING_REQUIRED_COVERAGE",
+  "job_key": "live13-11-recommendation",
+  "selected_project_key": "project_selectable_1",
+  "selected_runtime_name": "Project Meridian",
+  "recommended_project_key": "project_selectable_1",
+  "recommended_runtime_name": "Project Meridian",
+  "allowed_project_keys": [
+    "project_selectable_1",
+    "project_selectable_2",
+    "project_selectable_3"
+  ],
+  "allowed_runtime_names": [
+    "Project Meridian",
+    "Project Horizon",
+    "Project Solstice"
+  ],
+  "selected_required_score": 110,
+  "selected_required_matches": [
+    {
+      "term": "Hybrid search",
+      "matched_form": "Hybrid search",
+      "required": true,
+      "priority": "high",
+      "weight": 70
+    },
+    {
+      "term": "pgvector",
+      "matched_form": "pgvector",
+      "required": true,
+      "priority": "medium",
+      "weight": 40
+    }
+  ],
+  "fixed_baseline_covered": [],
+  "fixed_baseline_required_covered": [],
+  "rankings": [
+    {
+      "project_key": "project_selectable_1",
+      "runtime_name": "Project Meridian",
+      "score": 110,
+      "required_score": 110,
+      "required_match_count": 2,
+      "critical_high_required_match_count": 1,
+      "total_match_count": 2,
+      "required_matches": [
+        {
+          "term": "Hybrid search",
+          "matched_form": "Hybrid search",
+          "required": true,
+          "priority": "high",
+          "weight": 70
+        },
+        {
+          "term": "pgvector",
+          "matched_form": "pgvector",
+          "required": true,
+          "priority": "medium",
+          "weight": 40
+        }
+      ],
+      "optional_matches": [],
+      "safe_evidence_record_count": 1,
+      "tie_break_order": 3
+    },
+    {
+      "project_key": "project_selectable_2",
+      "runtime_name": "Project Horizon",
+      "score": 0,
+      "required_score": 0,
+      "required_match_count": 0,
+      "critical_high_required_match_count": 0,
+      "total_match_count": 0,
+      "required_matches": [],
+      "optional_matches": [],
+      "safe_evidence_record_count": 1,
+      "tie_break_order": 4
+    },
+    {
+      "project_key": "project_selectable_3",
+      "runtime_name": "Project Solstice",
+      "score": 0,
+      "required_score": 0,
+      "required_match_count": 0,
+      "critical_high_required_match_count": 0,
+      "total_match_count": 0,
+      "required_matches": [],
+      "optional_matches": [],
+      "safe_evidence_record_count": 1,
+      "tie_break_order": 5
+    }
+  ]
+}

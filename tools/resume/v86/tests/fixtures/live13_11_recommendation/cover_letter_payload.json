@@ -1,0 +1,12 @@
+{
+  "company": "Searchlight Technologies",
+  "role": "AI/ML Engineer — Recommendation Systems",
+  "salutation": "Dear Hiring Manager,",
+  "opening": "I'm excited to apply for this role focused on retrieval and recommendation systems. My graduate work in AI, combined with hands-on experience building retrieval-augmented and recommendation pipelines, has sharpened my focus on hybrid retrieval, reranking, and evaluation for production-grade systems.",
+  "experience_paragraphs": {
+    "experience_1": "As a Machine Learning Research Intern at Example Research Lab, I built a data-cleaning pipeline that merged 5 heterogeneous lab datasets, trained a baseline classifier that improved validation F1 from 0.71 to 0.84, and wrote automated tests that eliminated a recurring weekly pipeline regression.",
+    "experience_2": "As an AI Engineer Intern at Example Data Systems, I automated a manual data-labeling step that cut turnaround time from 2 days to 4 hours, and integrated a vector database into an internal search prototype with evaluation scripts the team still relies on."
+  },
+  "project_paragraph": "In Project Atlas and Project Beacon, I designed a document-classification pipeline with a 91% held-out accuracy and a collaborative-filtering recommendation prototype that improved offline NDCG@10 from 0.41 to 0.53, each backed by a reproducible evaluation harness.",
+  "closing": "I'd welcome the chance to bring this combination of retrieval, evaluation, and production-engineering experience to your team. Thank you for your consideration — I look forward to discussing how I can contribute."
+}

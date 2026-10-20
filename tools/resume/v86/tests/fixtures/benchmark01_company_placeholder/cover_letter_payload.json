@@ -1,0 +1,12 @@
+{
+  "company": "your organization",
+  "role": "Machine Learning Engineer I",
+  "salutation": "Dear Hiring Manager,",
+  "opening": "I am excited to apply for the Machine Learning Engineer I role at your organization. As an AI graduate student with hands-on experience building production-shaped ML pipelines, from data cleaning to classical ML and retrieval, I bring a strong foundation in Python, PyTorch, and scikit-learn along with a track record of shipping models that hold up under real-world load.",
+  "experience_paragraphs": {
+    "experience_1": "At Example Research Lab, I built a data pipeline that merged 5 heterogeneous lab datasets, trained a baseline classifier that improved validation F1 from 0.71 to 0.84 through feature engineering, and wrote automated tests that eliminated a recurring weekly data-pipeline regression over 3 months.",
+    "experience_2": "As an AI Engineer Intern at Example Data Systems, I automated a manual data-labeling step that cut turnaround time from 2 days to 4 hours, and integrated a vector database into an internal search prototype with evaluation scripts the team still relies on."
+  },
+  "project_paragraph": "In an independent project, I built Project Cascade, which benchmarks six scikit-learn and XGBoost classifiers against four scheduling-heuristic baselines for next-term course-enrollment demand, using pandas/NumPy pipelines and time-ordered validation rather than random cross-validation. I added SHAP attribution, leakage checks, and conformal uncertainty estimates, then exposed results through a FastAPI backend and React interface.",
+  "closing": "I would welcome the opportunity to bring this experience in Python-based ML pipelines, model evaluation, and API-driven deployment to your team. Thank you for considering my application; I look forward to discussing how my background in data engineering, classical ML, and production engineering can support your team's goals."
+}

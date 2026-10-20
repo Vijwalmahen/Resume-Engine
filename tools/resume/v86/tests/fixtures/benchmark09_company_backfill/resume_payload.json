@@ -1,0 +1,24 @@
+{
+  "experience_bullet_orders": {
+    "experience_1": [0, 1, 2, 3]
+  },
+  "experience_alternate_bullets": {
+    "experience_2": [
+      "Built an internal tool that automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+      "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+    ]
+  },
+  "project_bullet_orders": {
+    "project_1": [0, 1, 2],
+    "project_2": [0, 1, 2]
+  },
+  "selected_project": {
+    "owner_id": "project_selectable_1",
+    "title": "Project Meridian — Retrieval-Augmented Support-Docs RAG",
+    "technology_line": "Python, FastAPI, BM25, HNSW, LangGraph",
+    "bullets": [
+      "Designed a production-shaped RAG architecture combining hybrid BM25 + HNSW vector retrieval with reciprocal rank fusion and cross-encoder reranking over a 40k-article internal support-documentation corpus.",
+      "Built a quantitative evaluation harness (Recall@k, nDCG@k, MRR, LLM-judged faithfulness) that gated a cost/latency optimization pass, cutting cost 24% and latency 33% while keeping Recall@10 within two points of baseline."
+    ]
+  }
+}

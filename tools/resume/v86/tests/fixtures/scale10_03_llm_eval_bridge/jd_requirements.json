@@ -1,0 +1,141 @@
+{
+  "job_key": "scale10-03-applied-ai-coop",
+  "concepts": [
+    {
+      "term": "Agentic AI systems prototyping",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "agentic AI",
+        "agent prototyping"
+      ]
+    },
+    {
+      "term": "Retrieval pipeline design",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "retrieval pipelines",
+        "RAG pipeline design"
+      ]
+    },
+    {
+      "term": "Reranking pipeline design",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "reranking",
+        "cross-encoder reranking pipelines"
+      ]
+    },
+    {
+      "term": "Build evaluation datasets and metrics",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "evaluation dataset construction",
+        "evaluation metrics design"
+      ]
+    },
+    {
+      "term": "Implement Python services",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "Python services development"
+      ]
+    },
+    {
+      "term": "Implement REST APIs",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "REST API development"
+      ]
+    },
+    {
+      "term": "Improve AI-system latency and reliability",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "medium",
+      "aliases": [
+        "latency optimization",
+        "reliability improvement"
+      ]
+    },
+    {
+      "term": "Python",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "critical",
+      "aliases": []
+    },
+    {
+      "term": "FastAPI",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "LangGraph",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "RAG",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": [
+        "Retrieval-Augmented Generation"
+      ]
+    },
+    {
+      "term": "LLM evaluation",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": [
+        "LLM-as-judge evaluation",
+        "large language model evaluation"
+      ]
+    },
+    {
+      "term": "Docker",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium",
+      "aliases": [
+        "containerization"
+      ]
+    },
+    {
+      "term": "Located in / able to work in Example City, ST",
+      "category": "ELIGIBILITY",
+      "required": true,
+      "priority": "medium",
+      "aliases": [
+        "Example City, ST location"
+      ]
+    },
+    {
+      "term": "Co-op/internship availability",
+      "category": "ELIGIBILITY",
+      "required": true,
+      "priority": "medium",
+      "aliases": [
+        "Applied AI Co-op eligibility",
+        "internship employment type"
+      ]
+    }
+  ]
+}

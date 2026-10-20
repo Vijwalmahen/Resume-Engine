@@ -1,0 +1,9 @@
+{
+  "status": "STRATEGY_READY",
+  "skill_name": "jobapp-resume-v86-semantic",
+  "skill_identity": "JOBAPP_RESUME_V86_SEMANTIC_WORKER",
+  "job_file": "jobs/batch_inbox/live13-11-recommendation.md",
+  "job_key": "live13-11-recommendation",
+  "selected_project_bound": "project_selectable_1",
+  "semantic_corrections": 0
+}

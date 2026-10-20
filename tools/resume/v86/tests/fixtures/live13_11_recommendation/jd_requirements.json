@@ -1,0 +1,29 @@
+{
+  "job_key": "live13-11-recommendation",
+  "concepts": [
+    {
+      "term": "Semantic recommendation systems",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical"
+    },
+    {
+      "term": "Hybrid search",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "pgvector",
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "medium"
+    },
+    {
+      "term": "Sentence Transformers",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    }
+  ]
+}

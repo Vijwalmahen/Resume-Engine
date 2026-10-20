@@ -1,0 +1,134 @@
+{
+  "job_key": "scale10-02-generative-ai-intern",
+  "concepts": [
+    {
+      "term": "LLM-powered application development",
+      "aliases": [
+        "Generative AI applications",
+        "LLM applications"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical"
+    },
+    {
+      "term": "Agentic workflows",
+      "aliases": [
+        "agentic systems",
+        "agent-based workflows"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "RAG (Retrieval-Augmented Generation) pipelines",
+      "aliases": [
+        "RAG",
+        "retrieval-augmented generation"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical"
+    },
+    {
+      "term": "LangGraph",
+      "aliases": [
+        "LangChain",
+        "LangChain/LangGraph"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical"
+    },
+    {
+      "term": "LLM integration with tools and APIs",
+      "aliases": [
+        "tool-calling",
+        "API integration with LLMs"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "FastAPI",
+      "aliases": [
+        "FastAPI backend services"
+      ],
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "Vector databases",
+      "aliases": [
+        "vector stores"
+      ],
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "high"
+    },
+    {
+      "term": "Embeddings",
+      "aliases": [
+        "embedding models"
+      ],
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "medium"
+    },
+    {
+      "term": "LLM response quality/reliability evaluation",
+      "aliases": [
+        "LLM evaluation",
+        "response quality evaluation"
+      ],
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "medium"
+    },
+    {
+      "term": "Python",
+      "aliases": [],
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high"
+    },
+    {
+      "term": "Qdrant",
+      "aliases": [
+        "FAISS",
+        "Pinecone",
+        "vector store (FAISS/Pinecone/Qdrant)"
+      ],
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    },
+    {
+      "term": "Docker",
+      "aliases": [],
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    },
+    {
+      "term": "Redis",
+      "aliases": [],
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium"
+    },
+    {
+      "term": "New York, NY work location",
+      "aliases": [
+        "onsite New York",
+        "relocation to New York"
+      ],
+      "category": "ELIGIBILITY",
+      "required": true,
+      "priority": "medium"
+    }
+  ]
+}

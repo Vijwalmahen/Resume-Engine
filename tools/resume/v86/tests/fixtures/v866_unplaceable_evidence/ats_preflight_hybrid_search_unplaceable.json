@@ -1,0 +1,23 @@
+{
+  "job_key": "live13-11-recommendation",
+  "gate_pass": false,
+  "missing_supported_required_terms": ["Hybrid search"],
+  "concepts": [
+    {
+      "term": "Hybrid search",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "supported_by_master_evidence": true,
+      "resume_present": false,
+      "status": "SUPPORTED_BUT_MISSING",
+      "evidence_hits": [
+        {
+          "file": "{EVIDENCE_FILE}",
+          "source": "$.projects[1].alternate_facts_for_dynamic_tailoring[0]",
+          "text": "LangGraph nodes for query parsing, hybrid search, reranking, and explanation generation"
+        }
+      ]
+    }
+  ]
+}

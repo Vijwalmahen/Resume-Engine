@@ -1,0 +1,51 @@
+{
+  "job": "retrieval-engineering-intern",
+  "correction_round": 1,
+  "reasons": [
+    "DENSITY"
+  ],
+  "details": {
+    "density": {
+      "density_guard": {
+        "status": "DENSE_ONE_PAGE",
+        "page_count": 1,
+        "usable_bottom_whitespace_in": 0.09,
+        "target_min_in": 0.25,
+        "target_max_in": 0.5,
+        "estimated_lines_to_remove": 1,
+        "repair_candidates": [
+          {
+            "field": "selected_project.bullets[0]",
+            "characters": 150,
+            "priority": 1
+          },
+          {
+            "field": "selected_project.bullets[1]",
+            "characters": 140,
+            "priority": 1
+          },
+          {
+            "field": "selected_project.technology_line",
+            "characters": 80,
+            "priority": 2
+          },
+          {
+            "field": "experience_alternate_bullets.experience_2[0]",
+            "characters": 170,
+            "priority": 3
+          }
+        ],
+        "instructions": [
+          "Primary repair field: selected_project.bullets[0].",
+          "Reduce it to <= 120 characters.",
+          "Preserve factual meaning, strongest JD terminology, and useful metrics.",
+          "Remove filler, repeated context, secondary explanation, and low-value technologies first.",
+          "Do not modify protected experience or project canonical bullets.",
+          "After rewriting, rerender exactly once and rerun deterministic QA."
+        ]
+      },
+      "instruction": "Shorten only allowed dynamic content enough to remove the estimated wrapped line count."
+    }
+  },
+  "allowed_scope": "dynamic_resume_content_only"
+}

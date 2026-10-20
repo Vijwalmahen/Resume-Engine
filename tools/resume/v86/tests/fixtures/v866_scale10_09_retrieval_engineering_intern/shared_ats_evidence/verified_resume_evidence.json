@@ -1,0 +1,96 @@
+{
+  "candidate_profile": {
+    "primary_focus": "Retrieval-augmented and agentic systems",
+    "secondary_focus": "Hybrid search, reranking, and offline evaluation",
+    "principle": "Reliable, production-shaped AI rather than impressive demos"
+  },
+  "experience": [
+    {
+      "id": "experience_1",
+      "employer": "Example Research Lab",
+      "title": "Machine Learning Research Intern",
+      "location": "Example City, USA (Remote)",
+      "dates": "Jan 2025 - May 2025",
+      "tailoring_mode": "protected",
+      "canonical_bullets": [
+        "Built a data pipeline that cleaned and merged 5 heterogeneous lab datasets into one training-ready corpus.",
+        "Trained a baseline classification model and improved its validation F1 score from 0.71 to 0.84 through feature engineering.",
+        "Wrote automated tests that reduced a recurring data-pipeline regression from happening roughly weekly to zero over 3 months.",
+        "Presented findings in a lab-wide seminar and incorporated feedback into a revised experiment design."
+      ],
+      "technologies": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "pytest"
+      ]
+    },
+    {
+      "id": "experience_2",
+      "employer": "Example Data Systems",
+      "title": "AI Engineer Intern",
+      "location": "Example City (Remote)",
+      "dates": "Jun 2025 - Aug 2025",
+      "tailoring_mode": "tailorable",
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built an internal tool that automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+        "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_1",
+      "name": "Project Atlas",
+      "project_status": "required",
+      "tailoring_mode": "protected",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "spaCy",
+        "FastAPI",
+        "Redis",
+        "BM25",
+        "Cross-encoder reranking",
+        "Reciprocal rank fusion"
+      ],
+      "canonical_bullets": [
+        "Designed a document-classification pipeline covering 6 document categories with a held-out accuracy of 91%, combining hybrid dense+sparse retrieval (BM25 + embeddings with RRF fusion) for candidate-passage ranking before classification.",
+        "Built a labeling and evaluation harness that cut manual QA time by half compared to the initial spreadsheet-based process; served via a FastAPI microservice with Redis caching.",
+        "Wrote unit and integration tests achieving 85% coverage of the pipeline's core modules."
+      ]
+    },
+    {
+      "id": "project_2",
+      "name": "Project Beacon",
+      "project_status": "required",
+      "tailoring_mode": "protected",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "Surprise",
+        "FastAPI",
+        "Redis",
+        "Reciprocal rank fusion"
+      ],
+      "canonical_bullets": [
+        "Implemented a recommendation prototype using collaborative filtering over a public 100k-rating dataset, then re-ranked candidates with RRF for a small offline NDCG@10 lift.",
+        "Improved offline NDCG@10 from 0.41 to 0.53 through hyperparameter tuning and feature engineering.",
+        "Packaged the prototype as a reproducible CLI with a documented evaluation harness, exposed through a FastAPI service with Redis-backed result caching."
+      ]
+    }
+  ],
+  "skills": {
+    "static_resume_lines": {
+      "Languages": "Python",
+      "Frameworks": "PyTorch, scikit-learn, spaCy",
+      "Backend/API": "FastAPI, Redis, PostgreSQL"
+    }
+  }
+}

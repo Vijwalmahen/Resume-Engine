@@ -1,0 +1,9 @@
+{
+  "status": "STRATEGY_READY",
+  "skill_name": "jobapp-resume-v86-semantic",
+  "skill_identity": "JOBAPP_RESUME_V86_SEMANTIC_WORKER",
+  "job_file": "jobs/batch_inbox/scale10-04-computer-vision-intern.md",
+  "job_key": "scale10-04-computer-vision-intern",
+  "selected_project_bound": "project_selectable_3",
+  "semantic_corrections": 0
+}

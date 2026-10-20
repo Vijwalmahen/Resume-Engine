@@ -1,0 +1,115 @@
+{
+  "concepts": [
+    {
+      "term": "Object detection model training",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "critical",
+      "aliases": [
+        "train object-detection models"
+      ]
+    },
+    {
+      "term": "Model evaluation",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "evaluate object-detection models"
+      ]
+    },
+    {
+      "term": "OpenCV",
+      "category": "REQUIRED_HARD_SKILL",
+      "required": true,
+      "priority": "critical",
+      "aliases": [
+        "video stream processing with OpenCV"
+      ]
+    },
+    {
+      "term": "Inference optimization for production",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "optimize inference"
+      ]
+    },
+    {
+      "term": "OCR pipelines",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "high",
+      "aliases": [
+        "OCR pipeline development"
+      ]
+    },
+    {
+      "term": "Image-processing pipelines",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "medium",
+      "aliases": [
+        "build image-processing pipelines"
+      ]
+    },
+    {
+      "term": "Model accuracy and latency analysis",
+      "category": "CORE_RESPONSIBILITY",
+      "required": true,
+      "priority": "medium",
+      "aliases": [
+        "analyze accuracy and latency"
+      ]
+    },
+    {
+      "term": "Python",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "Mask R-CNN",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "OpenCV",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "ONNX Runtime",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "high",
+      "aliases": []
+    },
+    {
+      "term": "OCR experience",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium",
+      "aliases": [
+        "Tesseract OCR"
+      ]
+    },
+    {
+      "term": "Deep-learning frameworks",
+      "category": "PREFERRED_HARD_SKILL",
+      "required": false,
+      "priority": "medium",
+      "aliases": [
+        "PyTorch",
+        "TensorFlow"
+      ]
+    }
+  ],
+  "job_key": "scale10-04-computer-vision-intern"
+}
