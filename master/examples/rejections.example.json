@@ -1,0 +1,20 @@
+{
+  "_comment": "Fully fictional example. Copy to master/rejections.json. Claims listed here must NEVER appear in a generated resume/cover letter, even if a job description would make them convenient. This is the pipeline's explicit denylist for unsupported or previously-corrected fabrications.",
+  "rejected_claims": [
+    {
+      "claim": "Production deployment to paying customers",
+      "reason": "Project Meridian was a personal/academic project; it was never deployed to real users.",
+      "added": "2026-01-10"
+    },
+    {
+      "claim": "Led a team",
+      "reason": "All listed projects were built individually or with at most one peer collaborator, never in a leadership role.",
+      "added": "2026-01-10"
+    },
+    {
+      "claim": "Specific user or customer counts for any project",
+      "reason": "No project has real end users; any user/customer count would be fabricated.",
+      "added": "2026-01-10"
+    }
+  ]
+}

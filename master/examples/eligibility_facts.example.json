@@ -1,0 +1,7 @@
+{
+  "_comment": "Fully fictional example. Copy to master/eligibility_facts.json. Used to answer ELIGIBILITY-category JD concepts (work authorization, relocation, availability) truthfully -- never fabricated, never left for the model to guess.",
+  "work_authorization": "Authorized to work in the United States without employer sponsorship.",
+  "relocation": "Willing to relocate within the continental United States.",
+  "availability": "Available to start within 4 weeks of an accepted offer.",
+  "remote_preference": "Open to remote, hybrid, or on-site roles."
+}

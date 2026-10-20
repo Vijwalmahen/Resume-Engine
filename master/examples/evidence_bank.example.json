@@ -1,0 +1,32 @@
+{
+  "_comment": "Fully fictional example. Copy to master/evidence_bank.json. Each item is one verified, atomic fact used by tools/resume/v8/select_project.py to score which selectable project truthfully supports a job's requirements. `entity` must match a project's `name` (or one of its `evidence_entities` overrides) in master/runtime/runtime_resume_context.json.",
+  "items": [
+    {
+      "entity": "Project Meridian",
+      "category": "project",
+      "verified": true,
+      "source": "candidate_facts.md#project-meridian",
+      "fact": "Built a retrieval-augmented question-answering service over a 50k-document corpus using hybrid (BM25 + dense) search.",
+      "skills": ["information retrieval", "hybrid search"],
+      "technologies": ["Python", "FastAPI", "pgvector", "PostgreSQL"]
+    },
+    {
+      "entity": "Project Horizon",
+      "category": "project",
+      "verified": true,
+      "source": "candidate_facts.md#project-horizon",
+      "fact": "Built a time-series demand-forecasting model for a simulated regional logistics network, reducing forecast error (MAPE) from 19% to 11% versus a naive seasonal baseline.",
+      "skills": ["time-series forecasting", "demand forecasting"],
+      "technologies": ["Python", "pandas", "Prophet", "Docker"]
+    },
+    {
+      "entity": "Project Solstice",
+      "category": "project",
+      "verified": true,
+      "source": "candidate_facts.md#project-solstice",
+      "fact": "Built an ETL data-quality validation framework that automatically checked schema drift and null-rate anomalies across 8 simulated data sources.",
+      "skills": ["data quality", "ETL pipelines"],
+      "technologies": ["Python", "SQL", "Airflow", "PostgreSQL"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "Fully fictional example. Copy to master/metrics_registry.json. Only metrics listed here (or already embedded in a canonical_bullets/alternate_bullets_for_dynamic_tailoring string in master/runtime/runtime_resume_context.json) may ever appear in a generated resume/cover letter. The model must never invent a metric.",
+  "metrics": [
+    {
+      "id": "meridian_latency_reduction",
+      "owner_id": "project_selectable_1",
+      "statement": "Reduced p95 query latency from 480ms to 190ms by adding an approximate nearest-neighbor index.",
+      "verified": true,
+      "source": "candidate_facts.md#project-meridian"
+    },
+    {
+      "id": "horizon_forecast_error_reduction",
+      "owner_id": "project_selectable_2",
+      "statement": "Reduced forecast error (MAPE) from 19% to 11% versus a naive seasonal baseline across 12 simulated distribution regions.",
+      "verified": true,
+      "source": "candidate_facts.md#project-horizon"
+    },
+    {
+      "id": "solstice_data_quality_review_time_reduction",
+      "owner_id": "project_selectable_3",
+      "statement": "Reduced manual data-quality review time by 70% by auto-flagging anomalous batches before they reached a downstream warehouse table.",
+      "verified": true,
+      "source": "candidate_facts.md#project-solstice"
+    }
+  ]
+}

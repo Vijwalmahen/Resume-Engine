@@ -1,0 +1,12 @@
+{
+  "_comment": "Fully fictional example. Copy to master/candidate_profile.json and replace every value with your own verified information. See INSTRUCTIONS.md and docs/candidate-data-guide.md.",
+  "identity": {
+    "full_name": "Candidate Example",
+    "email": "candidate@example.com",
+    "phone": "(555) 010-2000",
+    "location": "Example City, ST",
+    "linkedin": "linkedin.com/in/candidate-example",
+    "github": "github.com/example-user",
+    "portfolio": "example-user.dev"
+  }
+}

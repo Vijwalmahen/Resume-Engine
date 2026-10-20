@@ -1,0 +1,157 @@
+{
+  "_comment": "Fully fictional example. Copy to master/runtime/runtime_resume_context.json. This is the ONE file the deterministic pipeline and semantic workers actually read at run time -- keep it in sync with candidate_facts.md / canonical_resume_entries.md / evidence_bank.json by hand (tools/resume/v8/runtime_context_guard.py only detects staleness, it does not regenerate this file for you).",
+  "schema_version": "1.0",
+  "candidate": {
+    "full_name": "Candidate Example",
+    "email": "candidate@example.com",
+    "phone": "(555) 010-2000",
+    "location": "Example City, ST",
+    "linkedin": "linkedin.com/in/candidate-example",
+    "github": "github.com/example-user",
+    "portfolio": "example-user.dev"
+  },
+  "education": [
+    {
+      "id": "education_1",
+      "institution": "Example University",
+      "degree": "M.S.",
+      "field": "Data Engineering",
+      "location": "Example City, ST",
+      "dates": "Aug 2024 -- May 2026",
+      "gpa": "3.80/4.00",
+      "coursework": [
+        "Distributed Data Systems",
+        "Data Pipeline Architecture",
+        "Database Internals",
+        "Applied Machine Learning"
+      ]
+    },
+    {
+      "id": "education_2",
+      "institution": "Example State College",
+      "degree": "B.S.",
+      "field": "Applied Mathematics",
+      "location": "Example City",
+      "dates": "Aug 2019 -- May 2023",
+      "gpa": "3.60/4.00",
+      "coursework": [
+        "Linear Algebra",
+        "Probability & Statistics",
+        "Numerical Methods",
+        "Optimization"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "experience_1",
+      "employer": "Example Research Lab",
+      "title": "Machine Learning Research Intern",
+      "location": "Example City, USA (Remote)",
+      "resume_display_location": "USA (Remote)",
+      "dates": "Jan 2025 -- May 2025",
+      "tailoring_mode": "protected",
+      "canonical_bullets": [
+        "Built a data pipeline that cleaned and merged 5 heterogeneous lab datasets into one training-ready corpus.",
+        "Trained a baseline classification model and improved its validation F1 score from 0.71 to 0.84 through feature engineering.",
+        "Wrote automated tests that reduced a recurring data-pipeline regression from happening roughly weekly to zero over 3 months.",
+        "Presented findings in a lab-wide seminar and incorporated feedback into a revised experiment design."
+      ],
+      "technologies": ["Python", "pandas", "scikit-learn", "pytest"]
+    },
+    {
+      "id": "experience_2",
+      "employer": "Example Data Systems",
+      "title": "AI Engineer Intern",
+      "location": "Example City (Remote)",
+      "resume_display_location": "Example City (Remote)",
+      "dates": "Jun 2025 -- Aug 2025",
+      "tailoring_mode": "tailorable",
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built an internal tool that automated a manual data-labeling step, cutting labeling turnaround time from 2 days to 4 hours.",
+        "Integrated a vector database into an internal search prototype and added evaluation scripts the team still uses."
+      ],
+      "technologies": ["Python", "FastAPI", "Redis", "Docker"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_1",
+      "name": "Project Atlas",
+      "description": "Document-classification pipeline with a labeling/evaluation harness.",
+      "project_status": "required",
+      "tailoring_mode": "protected",
+      "canonical_bullets": [
+        "Designed a document-classification pipeline covering 6 document categories with a held-out accuracy of 91%.",
+        "Built a labeling and evaluation harness that cut manual QA time by half compared to the initial spreadsheet-based process.",
+        "Wrote unit and integration tests achieving 85% coverage of the pipeline's core modules."
+      ],
+      "technologies": ["Python", "scikit-learn", "spaCy"]
+    },
+    {
+      "id": "project_2",
+      "name": "Project Beacon",
+      "description": "Collaborative-filtering recommendation prototype.",
+      "project_status": "required",
+      "tailoring_mode": "protected",
+      "canonical_bullets": [
+        "Implemented a recommendation prototype using collaborative filtering over a public 100k-rating dataset.",
+        "Improved offline NDCG@10 from 0.41 to 0.53 through hyperparameter tuning and feature engineering.",
+        "Packaged the prototype as a reproducible CLI with a documented evaluation harness."
+      ],
+      "technologies": ["Python", "PyTorch", "Surprise"]
+    },
+    {
+      "id": "project_selectable_1",
+      "name": "Project Meridian",
+      "description": "Hybrid-search retrieval-augmented question-answering service.",
+      "project_status": "selectable",
+      "tailoring_mode": "tailorable",
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built a retrieval-augmented question-answering service over a 50k-document corpus using hybrid (BM25 + dense) search.",
+        "Reduced p95 query latency from 480ms to 190ms by adding an approximate nearest-neighbor index."
+      ],
+      "technologies": ["Python", "FastAPI", "pgvector", "PostgreSQL"]
+    },
+    {
+      "id": "project_selectable_2",
+      "name": "Project Horizon",
+      "description": "Time-series demand-forecasting model for a simulated logistics network.",
+      "project_status": "selectable",
+      "tailoring_mode": "tailorable",
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built a time-series demand-forecasting model for a simulated regional logistics network, reducing forecast error (MAPE) from 19% to 11% versus a naive seasonal baseline.",
+        "Packaged the forecasting model behind a weekly batch-scoring script that regenerated demand forecasts across 12 simulated distribution regions."
+      ],
+      "technologies": ["Python", "pandas", "Prophet", "Docker"]
+    },
+    {
+      "id": "project_selectable_3",
+      "name": "Project Solstice",
+      "description": "ETL data-quality validation framework.",
+      "project_status": "selectable",
+      "tailoring_mode": "tailorable",
+      "alternate_bullets_for_dynamic_tailoring": [
+        "Built an ETL data-quality validation framework that automatically checked schema drift and null-rate anomalies across 8 simulated data sources.",
+        "Reduced manual data-quality review time by 70% by auto-flagging anomalous batches before they reached a downstream warehouse table."
+      ],
+      "technologies": ["Python", "SQL", "Airflow", "PostgreSQL"]
+    }
+  ],
+  "skills": {
+    "static_resume_lines": {
+      "Languages": "Python, C++, Java, SQL",
+      "Frameworks": "PyTorch, FastAPI, React",
+      "Tools": "Docker, Git, PostgreSQL"
+    },
+    "extended_for_dynamic_evidence": {
+      "cloud": ["AWS", "GCP"],
+      "research_interests_not_implemented": ["Quantum Machine Learning"]
+    }
+  },
+  "truth_constraints": [
+    "Never claim a production deployment to paying/real users for any project.",
+    "Never state a specific user/customer count for any project.",
+    "Never claim a leadership/management role; all work was individual or with at most one peer collaborator."
+  ]
+}
