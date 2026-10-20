@@ -1,0 +1,72 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local agent + audit scratch
+.audit/
+.claude/
+
+# Private candidate evidence
+master/*
+!master/README.md
+!master/examples
+!master/examples/**
+
+# Personalized document templates and their private layout configs
+reference/*
+!reference/README.md
+!reference/*.example.json
+!reference/examples/
+
+# Runtime / generated state
+.work/
+output/
+tracking/*.xlsx
+tracking/*.xls
+tracking/*.lock
+
+# Real application queues
+jobs/batch_inbox/*
+!jobs/batch_inbox/.gitkeep
+jobs/batch_done/*
+!jobs/batch_done/.gitkeep
+
+# Queue runtime state
+queue/
+
+# Generated documents
+*.docx
+*.pdf
+
+# Databases / logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Historical local copies
+*.pre-*
+*.before-*
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Fictional example document template (the only tracked binary)
+!reference/examples/resume_template.example.docx
+
+# Local checkout of the external watermark-cleaning service
+tools/watermarks-remover/

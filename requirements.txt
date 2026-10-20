@@ -1,0 +1,8 @@
+# Third-party Python dependencies observed in the source tree.
+# Versions are intentionally not pinned because the original project
+# did not include a dependency lock file.
+
+python-docx
+docx2pdf
+PyMuPDF
+openpyxl
