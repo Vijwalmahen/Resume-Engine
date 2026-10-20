@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy this file to reference/cover_letter_template_layout.json (private, gitignored) and edit the paragraph indices to match YOUR OWN cover_letter_template.docx exactly. See docs/candidate-data-guide.md.",
+
+  "min_paragraph_count": 10,
+  "static_indices": [0, 1, 8, 9],
+
+  "salutation_index": 2,
+  "opening_index": 3,
+  "experience_paragraph_blocks": [
+    {"owner_id": "experience_1", "index": 4},
+    {"owner_id": "experience_2", "index": 6}
+  ],
+  "project_paragraph_index": 5,
+  "closing_index": 7
+}
