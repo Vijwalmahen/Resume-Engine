@@ -1,0 +1,11 @@
+{
+  "company": "<string>",
+  "role": "<string>",
+  "salutation": "<string>",
+  "opening": "<string>",
+  "experience_paragraphs": {
+    "<owner_id of an experience entry the cover-letter template reserves a paragraph for>": "<string, one paragraph>"
+  },
+  "project_paragraph": "<string>",
+  "closing": "<string>"
+}

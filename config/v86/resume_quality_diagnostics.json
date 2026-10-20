@@ -1,0 +1,16 @@
+{
+  "_comment": "Thresholds for the ADVISORY resume-quality diagnostics (tools/resume/v86/resume_quality_report.py). Every value here is a documented heuristic used to produce non-blocking diagnostic findings -- none of them is an industry-standard ATS rule, and none of them participates in the pipeline's pass/fail gate, the correction budget, or any model call. Authoritative hard limits live elsewhere and are NOT configured here: per-field maximum character budgets stay in reference/resume_template_layout.json (enforced by tools/resume/payload_preflight.py) and rendered-page density stays in tools/resume/qa_resume.py / tools/resume/density_guard.py.",
+  "schema_version": "1.0",
+
+  "short_bullet_min_visible_chars": 60,
+  "_short_bullet_min_visible_chars_note": "Provisional heuristic only. An EXPERIENCE/PROJECTS bullet whose visible length (markdown styling and the bullet marker stripped) is STRICTLY below this value gets a low-severity advisory. A bullet exactly at the threshold is never warned about. A short bullet that states a clear, verified result is not weak merely because it is short -- never lengthen a bullet to satisfy this number.",
+
+  "partial_match_min_token_ratio": 0.6,
+  "_partial_match_min_token_ratio_note": "PDF round-trip only. When an expected bullet/field is not found verbatim in the extracted text, its ordered-token coverage (difflib.SequenceMatcher matching blocks over normalized tokens, which preserves token order) is compared against this ratio: at or above it the field is reported 'partial', below it 'missing'. A diagnostic threshold, not a correctness rule.",
+
+  "min_readable_text_chars": 200,
+  "_min_readable_text_chars_note": "PDF round-trip only. A rendered one-page resume whose extracted text layer is shorter than this is treated as effectively unreadable (image-only or broken text layer) and every field-level recall result becomes 'not_evaluated' rather than a cascade of false 'missing' findings.",
+
+  "timeline_gap_review_months": 6,
+  "_timeline_gap_review_months_note": "Informational review threshold only, never a gate failure. An uncovered interval between consecutive experience periods of at least this many whole months is reported for review; intervals covered by a dated education period are classified 'explained_by_education' instead."
+}

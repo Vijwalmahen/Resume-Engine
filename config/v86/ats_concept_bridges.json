@@ -1,0 +1,77 @@
+{
+  "_comment": "Reviewed concept bridges: a job description's phrasing on the left, the literal industry/candidate wording that genuinely satisfies that concept on the right. Every entry is a literal phrase checked with the same word-boundary test as every other alias -- this is NOT fuzzy matching. A bridge only changes which PHRASES are searched for; it never asserts that the candidate has the skill. The same form list is used against the resume AND against master evidence, so a bridge can surface real evidence the resume words differently, but it can never manufacture support that the evidence bank does not contain: a concept whose bridged forms appear in the resume but in no evidence record is reported as resume-claim-without-evidence (ambiguous), not as covered. Rule for adding one: the right-hand phrase must be a genuine name for the left-hand concept, or a specific instance of it. Non-equivalent technologies must never bridge to each other.",
+
+  "agentic workflows": ["LangGraph", "agentic loop", "multi-agent workflow", "multi-agent systems"],
+  "agentic systems": ["LangGraph", "agentic loop", "multi-agent workflow", "multi-agent systems"],
+  "agent-based workflows": ["LangGraph", "agentic loop", "multi-agent workflow", "multi-agent systems"],
+
+  "vector databases": ["Qdrant", "ChromaDB", "pgvector", "Pinecone", "FAISS"],
+  "vector stores": ["Qdrant", "ChromaDB", "pgvector", "Pinecone", "FAISS"],
+
+  "retrieval pipeline design": ["hybrid retrieval", "RAG architecture", "RAG pipeline", "retrieval architecture"],
+  "retrieval pipelines": ["hybrid retrieval", "RAG architecture", "RAG pipeline", "retrieval architecture"],
+  "rag pipeline design": ["hybrid retrieval", "RAG architecture", "RAG pipeline", "retrieval architecture"],
+
+  "implement rest apis": ["REST APIs", "REST API", "FastAPI"],
+  "rest api development": ["REST APIs", "REST API", "FastAPI"],
+  "implement python services": ["FastAPI service", "FastAPI microservices", "Python service"],
+  "python services development": ["FastAPI service", "FastAPI microservices", "Python service"],
+
+  "llm evaluation": ["LLM-judged faithfulness", "LLM-judged correctness", "LLM-as-judge verification", "LLM-as-judge workflows", "LLM-as-judge"],
+  "llm-as-judge evaluation": ["LLM-judged faithfulness", "LLM-judged correctness", "LLM-as-judge verification", "LLM-as-judge workflows", "LLM-as-judge"],
+  "large language model evaluation": ["LLM-judged faithfulness", "LLM-judged correctness", "LLM-as-judge verification", "LLM-as-judge workflows", "LLM-as-judge"],
+  "response quality evaluation": ["LLM-judged faithfulness", "LLM-judged correctness", "LLM-as-judge verification"],
+  "llm response quality/reliability evaluation": ["LLM-judged faithfulness", "LLM-judged correctness", "LLM-as-judge verification", "LLM-as-judge workflows", "LLM-as-judge"],
+
+  "hybrid search": ["hybrid retrieval", "hybrid dense+sparse retrieval", "hybrid dense-sparse retrieval", "hybrid dense/sparse retrieval"],
+
+  "reciprocal rank fusion": ["RRF", "RRF fusion"],
+
+  "_v869_comment": "Bridges below added in V8.6.9, narrowed in V8.6.10 after review against this file's own rule. Each right-hand phrase was checked against terminology that actually appears in evidence records, not invented from a job description. IMPORTANT and easy to get wrong: these forms are matched against the resume AND against master evidence, so a bridge DOES affect the ATS gate. It cannot invent an evidence record, but a bridge that is too broad can let a loosely-related evidence phrase satisfy a concept it does not really support, which raises coverage against the gate threshold. That is why entries here must instantiate the left-hand concept rather than merely relate to it -- broadening a bridge is a change to gate behaviour, not just to reporting.",
+
+  "nosql": ["MongoDB", "document database", "document store"],
+  "nosql databases": ["MongoDB", "document database", "document store"],
+  "document databases": ["MongoDB", "document store"],
+
+  "prompt injection": ["prompt-injection", "prompt injection"],
+  "prompt injection defense": ["prompt-injection", "guardrails", "scope checks"],
+  "llm guardrails": ["guardrails", "prompt-injection", "scope checks", "PII checks"],
+  "llm security": ["prompt-injection", "guardrails", "scope checks", "PII checks"],
+  "ai safety": ["guardrails", "safety guardrails", "prompt-injection"],
+  "model safety": ["guardrails", "safety guardrails"],
+
+  "pii handling": ["PII", "PII checks", "PII redaction"],
+  "pii protection": ["PII", "PII checks", "PII redaction"],
+  "data privacy": ["PII", "PII checks", "PII redaction"],
+  "sensitive data handling": ["PII", "PII checks", "PII redaction"],
+
+  "input validation": ["scope checks", "scope validation", "schema validation"],
+  "scope validation": ["scope checks", "scope validation"],
+
+  "output verification": ["citation validation", "groundedness", "output verification"],
+  "groundedness evaluation": ["groundedness", "citation validation"],
+  "factuality checks": ["groundedness", "citation validation", "faithfulness"],
+  "hallucination mitigation": ["groundedness", "citation validation", "guardrails"],
+
+  "data quality": ["data quality", "data quality filtering", "leakage checks"],
+  "data quality checks": ["data quality", "data quality filtering", "leakage checks"],
+  "data validation": ["data quality", "leakage checks", "schema validation", "scope checks"],
+  "quality checks": ["data quality", "data quality filtering", "leakage checks"],
+
+  "caching": ["Redis-backed caching", "asynchronous caching", "caching"],
+  "caching strategies": ["Redis-backed caching", "asynchronous caching"],
+
+  "reranking": ["cross-encoder reranking", "reranker", "reranking"],
+  "sparse retrieval": ["BM25", "lexical search", "sparse retrieval"],
+  "dense retrieval": ["dense retrieval", "embedding retrieval"],
+
+  "model optimization": ["int8", "quantization", "distillation"],
+  "inference optimization": ["int8", "quantization", "inference latency"],
+  "model compression": ["quantization", "distillation", "int8"],
+
+  "optical character recognition": ["OCR", "PaddleOCR", "Tesseract"],
+  "object detection": ["YOLO", "YOLOv7", "object detection"],
+
+  "offline evaluation": ["evaluation harness", "Recall@k", "nDCG", "held-out evaluation"],
+  "retrieval evaluation": ["Recall@k", "nDCG", "MRR", "evaluation harness"]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "The pool of selectable projects is NOT listed here -- it is derived automatically at runtime from master/runtime/runtime_resume_context.json (any project entry with project_status == 'selectable'). This file only holds domain semantic knowledge that is not candidate identity: concept bridges the deterministic project selector may use to decide whether a project's evidence truthfully supports a JD concept phrased differently than the candidate's own wording. See docs/candidate-data-guide.md.",
+  "concept_bridges": {
+    "agentic systems": [
+      "multi-agent systems",
+      "multi agent systems"
+    ],
+    "agentic system design": [
+      "multi-agent systems",
+      "multi agent systems"
+    ]
+  }
+}

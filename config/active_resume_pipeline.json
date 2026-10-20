@@ -1,0 +1,45 @@
+{
+  "_comment": "The 'validation'/'rollback' sections below are historical, aggregate engineering notes from this pipeline's pre-open-source development history. They describe pipeline behavior/pass-rates only -- no candidate, job, or private benchmark-run identity -- and are kept as evidence of the design's validation history. Any 'backups/*' frozen-baseline directories this pipeline's own tooling may reference are private, gitignored, development-time artifacts and are not present in this public repository.",
+  "active_version": "V8.6.8",
+  "status": "PRODUCTION",
+  "production_architecture": "folder_batch_v861",
+  "production_entrypoints": {
+    "batch_runner": "tools/resume/v86/run_batch.py",
+    "semantic_worker": "tools/resume/v86/semantic_worker.py",
+    "deterministic_pipeline": "tools/resume/v86/deterministic_pipeline.py",
+    "finalizer": "tools/resume/v86/finalize_local.py",
+    "strategy_skill": ".claude/skills/jobapp-resume-batch/SKILL.md",
+    "correction_skill": ".claude/skills/jobapp-resume-correct/SKILL.md",
+    "local_pipeline": "tools/resume/v8/run_local_resume_pipeline.py",
+    "correction_collector": "tools/resume/v8/collect_corrections.py"
+  },
+  "production_defaults": {
+    "input_dir": "jobs/batch_inbox",
+    "done_dir": "jobs/batch_done",
+    "max_workers": 10,
+    "tracker": "tracking/job_application_tracker.xlsx",
+    "application_status_automation": false
+  },
+  "validation": {
+    "v866_10_job_scale_validation": "Batch of 10 jobs processed with full concurrency and zero cross-job state contamination; see docs/benchmarks.md for a synthetic illustrative example of this kind of run.",
+    "v867_deterministic_ats_fix": {
+      "concept": "reciprocal rank fusion",
+      "aliases_added": ["RRF", "RRF fusion"]
+    },
+    "v867_historical_ats_replay": "Replayed against prior batches' ATS output with only the intended concept-alias rows changing.",
+    "v867_offline_suite": "Full pass across the offline regression suite.",
+    "v866_mutable_fixture_drift_issue": "fixed test-only",
+    "v867_job09_paid_retest": "Single-job retest completed with no correction rounds and a passing ATS gate.",
+    "pre_promotion_offline_suite_rerun": "Full pass across 8 suites (test_v86_offline, test_v86_reliability_patch, test_v86_2_isolation_patch, test_v86_3_usage_optimization, test_v86_4_call2_effort_medium, test_v86_5_clear_winner_safeguard, test_v86_6_ats_bridge_and_unplaceable_evidence, test_v86_7_ats_bridge_reciprocal_rank_fusion)",
+    "frozen_v85_drift": "NONE",
+    "frozen_v86x_candidate_drift": "NONE"
+  },
+  "rollback": {
+    "version": "V8.6.7",
+    "legacy_entrypoints_retained": true
+  },
+  "legacy_orchestrator": {
+    "status": "DORMANT",
+    "note": "rolling_queue.py is legacy V8.5 infrastructure and is not the V8.6.x production execution path"
+  }
+}

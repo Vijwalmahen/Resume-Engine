@@ -1,0 +1,25 @@
+{
+  "experience_bullet_orders": {
+    "<owner_id of a protected experience entry>": [
+      "<0-based integer; complete permutation of that entry's canonical_bullets indices>"
+    ]
+  },
+  "experience_alternate_bullets": {
+    "<owner_id of a tailorable experience entry>": [
+      "<string, one per bullet slot the template reserves for this entry>"
+    ]
+  },
+  "project_bullet_orders": {
+    "<owner_id of a required/protected project entry>": [
+      "<0-based integer; complete permutation of that entry's canonical_bullets indices>"
+    ]
+  },
+  "selected_project": {
+    "owner_id": "<id of the selectable project bound to this job>",
+    "title": "<string>",
+    "technology_line": "<string>",
+    "bullets": [
+      "<string, one per bullet slot the template reserves for the selected-project slot>"
+    ]
+  }
+}

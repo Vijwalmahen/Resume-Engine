@@ -1,0 +1,11 @@
+{
+  "job_key": "<stable job key string>",
+  "concepts": [
+    {
+      "term": "<one atomic requirement concept>",
+      "category": "<REQUIRED_HARD_SKILL | PREFERRED_HARD_SKILL | CORE_RESPONSIBILITY | SOFT_SKILL | EDUCATION_REQUIREMENT | ELIGIBILITY>",
+      "required": "<boolean>",
+      "priority": "<critical | high | medium | low>"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "amazon web services": [
+    "AWS"
+  ],
+  "artificial intelligence": [
+    "AI"
+  ],
+  "continuous integration continuous delivery": [
+    "CI/CD",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "Continuous Deployment"
+  ],
+  "google cloud platform": [
+    "GCP"
+  ],
+  "large language models": [
+    "LLM",
+    "LLMs",
+    "Large Language Model"
+  ],
+  "machine learning": [
+    "ML"
+  ],
+  "microsoft azure": [
+    "Azure"
+  ],
+  "natural language processing": [
+    "NLP",
+    "NLTK"
+  ],
+  "retrieval augmented generation": [
+    "Retrieval-Augmented Generation",
+    "RAG"
+  ],
+  "scikit learn": [
+    "scikit-learn",
+    "sklearn"
+  ],
+  "sql": [
+    "MySQL",
+    "PostgreSQL"
+  ]
+}
